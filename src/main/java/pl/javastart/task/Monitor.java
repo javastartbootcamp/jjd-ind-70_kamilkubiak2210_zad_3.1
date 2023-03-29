@@ -6,10 +6,6 @@ public class Monitor {
     public double screenDiagonal;
     public double refreshRate;
 
-    public Monitor() {
-
-    }
-
     public Monitor(String producer, String model, double screenDiagonal, double refreshRate) {
         this.producer = producer;
         this.model = model;
